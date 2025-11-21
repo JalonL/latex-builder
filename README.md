@@ -21,4 +21,7 @@ On linux use the `build.sh` script:
 ```
 NOTE: Maybe you need to execute `chmod +x build.sh` to give the file permission to execute.
 
-The pdf-File will be created at the same path where the `document.tex` is located. Also the input `.tex`-File can have any name you want (e.g. `main.tex`). The pdf-Name will be the same as your input `.tex`-File
+The pdf-File will be created at the same path where the `document.tex` is located. Also the input `.tex`-File can have any name you want (e.g. `main.tex`). The pdf-Name will be the same as your input `.tex`-File.
+
+## Troubleshoot
+The name of the image defined in all build-scripts is `latex-builder`. When your image is named different, adjust the name in the corresponding build-script.
