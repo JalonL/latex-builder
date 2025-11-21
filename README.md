@@ -11,12 +11,12 @@ To use this latex-builder you have the following options:
 
 ### Windows
 On windows use the `build.bat` script:
-```ps
+```cmd
 build.bat path/to/document.tex
 ```
 ### Linux
 On linux use the `build.sh` script:
-```ps
+```shell
 ./build.sh path/to/document.tex
 ```
 NOTE: Maybe you need to execute `chmod +x build.sh` to give the file permission to execute.
